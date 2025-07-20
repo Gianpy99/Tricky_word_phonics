@@ -1,0 +1,15 @@
+# Basic Python dependencies (without Coral TPU)
+# Use this if you don't have a Coral TPU or want to test without it
+
+flask==2.3.3
+flask-cors==4.0.0
+librosa==0.10.1
+numpy==1.24.3
+tensorflow==2.13.0
+Pillow==10.0.0
+soundfile==0.12.1
+scipy==1.11.2
+
+# Optional for enhanced audio processing
+webrtcvad==2.0.10
+# pyaudio==0.2.11  # Commented out as it can be problematic on some systems
